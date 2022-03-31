@@ -9,15 +9,17 @@ public class Main {
 	    
 	   double total;
 	   
-	   if (codigo == 1);{
+	   if (codigo == 1){
 	       total = quantidade * 12.00 ;
+	       System.out.println("O pagamento é de " + total );
 	   }
-	   if (codigo == 2);{
+	   else if(codigo == 2){
 	       total = quantidade * 17.00 ;
+		   System.out.println("O pagamento é de " + total );
 	   }
-	   if (codigo == 3);{
+	   else if(codigo == 3){
 	       total = quantidade * 25.00 ;
+	       System.out.println("O pagamento é de " + total );
 	   }
-	    System.out.println(total);
 	}
 }
